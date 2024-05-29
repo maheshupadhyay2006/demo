@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 let connectdb=async(data)=>{
+    { useNewUrlParser: true, useUnifiedTopology: true },
    try{
     let db_option={
         dbName:"ducat"
